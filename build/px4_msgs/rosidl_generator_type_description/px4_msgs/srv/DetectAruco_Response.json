@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "px4_msgs/srv/DetectAruco_Response",
+      "fields": [
+        {
+          "name": "target_number",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "px4_msgs/srv/DetectAruco_Response",
+      "hash_string": "RIHS01_c74fc2f518f12c958e29486b04c19ad067bd4242e0eee33cab6c5d2ef67c60dd"
+    }
+  ]
+}

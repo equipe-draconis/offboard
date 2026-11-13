@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from px4_msgs/action/ExecuteMission.action
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct ExecuteMission_Goal {
+      boolean start;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct ExecuteMission_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct ExecuteMission_Feedback {
+      string current_state;
+
+      float progress;
+    };
+  };
+};

@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "px4_msgs/action/ExecuteMission_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "px4_msgs/action/ExecuteMission_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "px4_msgs/action/ExecuteMission_Result",
+        "fields": [
+          {
+            "name": "success",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "px4_msgs/action/ExecuteMission_GetResult_Response",
+      "hash_string": "RIHS01_16a8abb0679e365c7e5df9d97c523b9812a8170a6239aa27c5e4764bd948cf8a"
+    },
+    {
+      "type_name": "px4_msgs/action/ExecuteMission_Result",
+      "hash_string": "RIHS01_d891a4cd58de7f1895c580e0ac262177e5229e8aba708c44f4dcd2b4822d6b5e"
+    }
+  ]
+}

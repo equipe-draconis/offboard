@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from px4_msgs/action/GoToPostion.action
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct GoToPostion_Goal {
+      float x;
+
+      float y;
+
+      float z;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct GoToPostion_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct GoToPostion_Feedback {
+      float current_x;
+
+      float current_y;
+
+      float current_z;
+    };
+  };
+};

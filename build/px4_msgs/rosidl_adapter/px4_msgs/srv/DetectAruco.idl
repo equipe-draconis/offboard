@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from px4_msgs/srv/DetectAruco.srv
+// generated code does not contain a copyright notice
+
+
+module px4_msgs {
+  module srv {
+    struct DetectAruco_Request {
+      string start;
+    };
+    struct DetectAruco_Response {
+      int64 target_number;
+    };
+  };
+};
